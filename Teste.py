@@ -1,0 +1,8 @@
+nome = input("What is your name?")
+dia = input("What is your birthday date?")
+mês = input("What is your birthday month?")
+ano = input("What is your birthday year?")
+print("Welcome,", nome, "your bithday date is", dia, mês, ano)
+anoatual = (2023)
+idade = (anoatual - int(ano))
+print(nome,"You are", idade, "years old, correct?")
